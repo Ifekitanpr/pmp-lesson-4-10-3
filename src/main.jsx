@@ -1,5 +1,5 @@
 import React,{useState}from'react';import{createRoot}from'react-dom/client';import{createPortal}from'react-dom';import{ArrowLeft,ArrowRight,BellRing,Check,ChevronDown,ClipboardCheck,FileLock2,Mail,Menu,MessageCircleMore,RefreshCw,Route,ShieldCheck,Target,TimerReset,UsersRound,Volume2,VolumeX,X}from'lucide-react';import'./styles.css';
-const A='/assets/';
+const A='./assets/';
 const tabs=['The signal','Feedback loop','Four-part cycle','Loop patterns','Guardrails','Exam lens'];
 const cycle=[
 ['Send','06-send.png','Puts the communication out through whichever method fits the message.'],
